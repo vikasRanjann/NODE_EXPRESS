@@ -12,6 +12,7 @@ router.get("/register", (request, response) => {
     if (error) {
       console.log(`error :${error}`);
     } else {
+      //get data
       console.log(data);
       response.send(data);
     }
